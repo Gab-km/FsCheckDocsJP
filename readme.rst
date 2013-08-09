@@ -44,3 +44,4 @@ FsCheck翻訳プロジェクト
 
 * `@Gab-km <https://github.com/Gab-km>`_
 * `@kos59125 <https://github.com/kos59125>`_
+* `@yukitos <https://github.com/yukitos>`_
