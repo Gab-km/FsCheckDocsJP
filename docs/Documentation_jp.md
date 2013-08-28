@@ -664,7 +664,7 @@ Label of failing property: 1 = -1
 
 - - -
 
-### 翻訳者 / the translators
+### 翻訳者 / translated by
 * [@Gab-km](https://github.com/Gab-km)
 * [@kos59125](https://github.com/kos59125)
 * [@yukitos](https://github.com/yukitos)
