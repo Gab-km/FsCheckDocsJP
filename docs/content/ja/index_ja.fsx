@@ -1,6 +1,6 @@
 (*** hide ***)
-// ���̃R�[�h�u���b�N�͐������ꂽ HTML �h�L�������g�ł͏ȗ�����܂��B�h�L�������g��
-// ���������Ȃ������ɂȂ���̂��`���邽�߂Ɏg���܂��B
+// このコードブロックは生成された HTML ドキュメントでは省略されます。ドキュメントで
+// 見せたくない助けになるものを定義するために使います。
 #I "../../src/FsCheck/bin/Release"
 
 (**
@@ -11,7 +11,7 @@ FsCheck
   <div class="span1"></div>
   <div class="span6">
     <div class="well well-small" id="nuget">
-      FsCheck �� xUnit.NET �v���O�C���� <a href="https://nuget.org/packages/FsCheck">NuGet ����C���X�g�[��</a> �o���܂�:
+      FsCheck と xUnit.NET プラグインは <a href="https://nuget.org/packages/FsCheck">NuGet からインストール</a> 出来ます:
       <pre>PM> Install-Package FsCheck
 PM> Install-Package FsCheck.Xunit</pre>
     </div>
@@ -19,40 +19,40 @@ PM> Install-Package FsCheck.Xunit</pre>
   <div class="span1"></div>
 </div>
 
-�h�L�������g
+ドキュメント
 -------------
 
- * [�N�C�b�N�X�^�[�g](QuickStart_ja.html)����n�߂܂��傤�B
+ * [クイックスタート](QuickStart_ja.html)から始めましょう。
 
- * [����](Properties_ja.html)�̓e�X�g��\������ FsCheck �̌����������܂� �\
-   �ʂ̃t���[�����[�N�ł́A�p�����^���C�Y�h�e�X�g�␶���I�e�X�g�ƌĂ΂�邱�Ƃ�����܂��B
-   FsCheck �͂����𐫎��ƌĂт܂��B
+ * [性質](Properties_ja.html)はテストを表現する FsCheck の言語を説明します —
+   別のフレームワークでは、パラメタライズドテストや生成的テストと呼ばれることもあります。
+   FsCheck はこれらを性質と呼びます。
 
- * [�e�X�g�f�[�^�̐���](TestData_ja.html)�� FsCheck �ɂ��ǂ��f�[�^�𐶐���������A
-   �e�X�g���悤�Ƃ��Ă���Ώۂɑ΂��ĈӖ��̂Ȃ��f�[�^�̐�������߂������肷����@��������܂��B
-   FsCheck �̓e�X�g�l�̐�����(�W�F�l���[�^�[)����k��(�V�������J�[)��\�����A
-   ���������Ȃ��̏����������ɓK�p���邽�߂̏_��Ȍ��������Ă��܂��B
+ * [テストデータの生成](TestData_ja.html)は FsCheck により良いデータを生成させたり、
+   テストしようとしている対象に対して意味のないデータの生成をやめさせたりする方法を説明します。
+   FsCheck はテスト値の生成器(ジェネレーター)や収縮器(シュリンカー)を表現し、
+   それらをあなたの書いた性質に適用するための柔軟な言語を備えています。
 
- * [���f���x�[�X�̃e�X�g](StatefulTesting_ja.html)�� FsCheck ���I�u�W�F�N�g��f�[�^�ɑ΂���
-   ��ʂ̃����_���ȑ���𐶐����A�e����̌��ʂ�(�����ƒP����)���f����p���Ĕ�r�����Ƃ����A
-   �����I�ȃe�X�g�̃A�v���[�`�ł��B
+ * [モデルベースのテスト](StatefulTesting_ja.html)は FsCheck がオブジェクトやデータに対する
+   大量のランダムな操作を生成し、各操作の結果は(ずっと単純な)モデルを用いて比較されるという、
+   特徴的なテストのアプローチです。
 
- * [�e�X�g�̎��s](RunningTests_ja.html)�� FsCheck �����s���邽�߂̗l�X�ȕ��@��
-   ���j�b�g�e�X�g�t���[�����[�N�Ƃ̓����̂�������������܂��B
+ * [テストの実行](RunningTests_ja.html)は FsCheck を実行するための様々な方法や
+   ユニットテストフレームワークとの統合のしかたを説明します。
 
- * [�g�������̃q���g](TipsAndTricks_ja.html) 
+ * [使いかたのヒント](TipsAndTricks_ja.html) 
 
- * [API ���t�@�����X](reference/index.html)�͑S�Ă̌^�A���W���[���A�֐��ɑ΂��鎩���������ꂽ�h�L�������g���܂݂܂��B
+ * [API リファレンス](reference/index.html)は全ての型、モジュール、関数に対する自動生成されたドキュメントを含みます。
  
-�v���ƒ��쌠
+貢献と著作権
 ------------
 
-�{�v���W�F�N�g��[issue �̕�][issues]�A�v���W�F�N�g�̃t�H�[�N�A�����ăv�����N�G�X�g�̑��M���s�����Ƃ�
-�o���� [GitHub][gh] �Ƀz�X�g����Ă��܂��B�����V�����p�v���b�N�� API ��ǉ����悤�Ƃ��Ă���Ȃ�A
-�h�L�������g�ɂȂ�[�T���v��][content]��ǉ����邱�Ƃ��l���ɓ���Ă����Ă��������B
+本プロジェクトは[issue の報告][issues]、プロジェクトのフォーク、そしてプルリクエストの送信を行うことが
+出来る [GitHub][gh] にホストされています。もし新しいパプリックな API を追加しようとしているなら、
+ドキュメントになる[サンプル][content]を追加することも考慮に入れておいてください。
 
-�{���C�u������ BSD ���C�Z���X�̉��ŗ��p�\�ł���A�ύX����щc���E��c���ړI�����̍ĔЕz��������܂��B
-�ڍׂɂ��ẮAGitHub �̃��|�W�g���ɂ���[���C�Z���X�t�@�C��][license]���m�F���ĉ������B
+本ライブラリは BSD ライセンスの下で利用可能であり、変更および営利・非営利目的両方の再頒布が許可されます。
+詳細については、GitHub のリポジトリにある[ライセンスファイル][license]を確認して下さい。
 
   [content]: https://github.com/fsharp/FsCheck/tree/master/docs/content
   [gh]: https://github.com/fsharp/FsCheck
