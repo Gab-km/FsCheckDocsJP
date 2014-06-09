@@ -51,7 +51,7 @@ Check.Quick revIsOrig
 
 性質が有効ではありませんが、Check.Quick が反例を表示しないという場合があります。このような場合のために、別のテスト関数があります。
 テストを実行する前にそれぞれのテストケースを表示する
-<pre>Check.Verbose <property_name></pre>
+<pre>Check.Verbose &lt;property_name&gt;</pre>
 を使ってもう一度テストしてみましょう。すなわち、最後に表示されたテストケースがループしているかエラーが発生しているものだということです。
 
 FsCheck のテストを実行する方法についてもっと知りたいなら、 [テストの実行](RunningTests_ja.html) を参照してください。
