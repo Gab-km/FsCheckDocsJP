@@ -22,25 +22,25 @@ PM> Install-Package FsCheck.Xunit</pre>
 ドキュメント
 -------------
 
- * [クイックスタート](QuickStart_ja.html)から始めましょう。
+ * [クイックスタート](QuickStart.html)から始めましょう。
 
- * [性質](Properties_ja.html)はテストを表現する FsCheck の言語を説明します —
+ * [性質](Properties.html)はテストを表現する FsCheck の言語を説明します —
    別のフレームワークでは、パラメタライズドテストや生成的テストと呼ばれることもあります。
    FsCheck はこれらを性質と呼びます。
 
- * [テストデータの生成](TestData_ja.html)は FsCheck により良いデータを生成させたり、
+ * [テストデータの生成](TestData.html)は FsCheck により良いデータを生成させたり、
    テストしようとしている対象に対して意味のないデータの生成をやめさせたりする方法を説明します。
    FsCheck はテスト値の生成器(ジェネレーター)や収縮器(シュリンカー)を表現し、
    それらをあなたの書いた性質に適用するための柔軟な言語を備えています。
 
- * [モデルベースのテスト](StatefulTesting_ja.html)は FsCheck がオブジェクトやデータに対する
+ * [モデルベースのテスト](StatefulTesting.html)は FsCheck がオブジェクトやデータに対する
    大量のランダムな操作を生成し、各操作の結果は(ずっと単純な)モデルを用いて比較されるという、
    特徴的なテストのアプローチです。
 
- * [テストの実行](RunningTests_ja.html)は FsCheck を実行するための様々な方法や
+ * [テストの実行](RunningTests.html)は FsCheck を実行するための様々な方法や
    ユニットテストフレームワークとの統合のしかたを説明します。
 
- * [使いかたのヒント](TipsAndTricks_ja.html) 
+ * [使いかたのヒント](TipsAndTricks.html) 
 
  * [API リファレンス](reference/index.html)は全ての型、モジュール、関数に対する自動生成されたドキュメントを含みます。
  
